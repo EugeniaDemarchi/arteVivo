@@ -269,6 +269,9 @@ footer {
   .main {
     padding: 20px;
   }
+  p {
+    text-align: center;
+  }
   .acerca {
     margin-bottom: 3rem;
     margin-top: 3rem;
