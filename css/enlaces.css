@@ -188,7 +188,7 @@ nav li a:hover {
   .img {
     width: 100%;
   }
-  #img-2 {
+  .segunda-img {
     display: none;
   }
   h1 {
@@ -216,6 +216,9 @@ nav li a:hover {
     letter-spacing: 0.3rem;
     word-spacing: 0.1rem;
   }
+  #texto {
+    text-align: center;
+  }
   p {
     text-align: center;
     line-height: 2rem;
@@ -236,7 +239,6 @@ nav li a:hover {
     padding-left: 2rem;
     padding-right: 2rem;
     font-size: 1.2rem;
-    /*border-radius: 0.5625rem;*/
   }
   .btn-caja:link,
   .btn-caja:visited {

@@ -36,17 +36,38 @@
         </nav>
       </header>
       <div class="enlacesImg">
-        <img
-          class="img"
-          src="./imagenes/imgs-enlaces/H.A2.jpg"
-          alt="Imágen de un museo"
-        />
-        <img
-          class="img"
-          id="img-2"
-          src="./imagenes/imgs-enlaces/enlaces-ha-img2.jpg"
-          alt="Imágen de varias personas en una clase"
-        />
+        <picture>
+          <source
+            srcset="imagenes\imgs-enlaces\H.A2-min.webp"
+            type="image/webp"
+          />
+          <source
+            srcset="imagenes\imgs-enlaces\H.A2-reducida.jpg"
+            type="image/png"
+          />
+          <img
+            src="imagenes\imgs-enlaces\H.A2-min.webp"
+            alt="Imagen de una persona preparando materiales para pintar"
+            class="primer-img"
+            class="segunda-img"
+          />
+        </picture>
+        <picture>
+          <source
+            srcset="imagenes\imgs-enlaces\ha-min.webp"
+            type="image/webp"
+          />
+          <source
+            srcset="imagenes\imgs-enlaces\ha-reducida.jpg"
+            type="image/png"
+            class="segunda-img"
+          />
+          <img
+            src="imagenes\imgs-enlaces\ha-min.webp"
+            alt="Imagen de una persona preparando materiales para pintar"
+            class="segunda-img"
+          />
+        </picture>
       </div>
 
       <main>

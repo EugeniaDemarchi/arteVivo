@@ -36,17 +36,38 @@
         </nav>
       </header>
       <div class="enlacesImg">
-        <img
-          class="img"
-          src="./imagenes/imgs-enlaces/ilus digit.jpg"
-          alt="Imágen sobre una obra digital"
-        />
-        <img
-          class="img"
-          id="img-2"
-          src="./imagenes/imgs-enlaces/enlaces-digital-img2.jpg"
-          alt="Imágen de una obra digital"
-        />
+        <picture>
+          <source
+            srcset="imagenes\imgs-enlaces\digital-min.webp"
+            type="image/webp"
+          />
+          <source
+            srcset="imagenes\imgs-enlaces\digital-reducida.jpg"
+            type="image/png"
+          />
+          <img
+            src="imagenes\imgs-enlaces\digital-min.webp"
+            alt="Imagen de una persona preparando materiales para pintar"
+            class="primer-img"
+          />
+        </picture>
+        <picture>
+          <source
+            srcset="imagenes\imgs-enlaces\digital2-min.webp"
+            type="image/webp"
+            class="segunda-img"
+          />
+          <source
+            srcset="imagenes\imgs-enlaces\digital2-reducida.jpg"
+            type="image/png"
+            class="segunda-img"
+          />
+          <img
+            src="imagenes\imgs-enlaces\digital2-min.webp"
+            alt="Imagen de una persona preparando materiales para pintar"
+            class="segunda-img"
+          />
+        </picture>
       </div>
 
       <main>

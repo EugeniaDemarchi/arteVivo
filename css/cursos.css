@@ -285,6 +285,7 @@ footer {
   .tituloh3 {
     margin-top: 4rem;
     margin-bottom: 4rem;
+    letter-spacing: 1rem;
   }
   main {
     grid-area: main;
@@ -443,10 +444,6 @@ footer {
   .main {
     padding: 20px 200px 100px 200px;
   }
-
-  /*.footer-container {
-    grid-template-columns: repeat(2, 1fr);
-  }*/
   .footer-container {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -522,6 +519,9 @@ footer {
     margin-left: 30rem;
     row-gap: 5rem;
   }
+  div .Caja {
+    width: 60rem;
+  }
   .Caja {
     border: 0.0125rem solid #cad2c5;
     display: flex;
@@ -541,7 +541,6 @@ footer {
     margin: 3rem;
     width: 50%;
   }
-
   .btn-caja {
     background-color: #cad2c5;
     color: #354f52;

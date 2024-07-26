@@ -36,17 +36,38 @@
         </nav>
       </header>
       <div class="enlacesImg">
-        <img
-          class="img"
-          src="./imagenes/imgs-enlaces/PinturaCreativa1.jpg"
-          alt="Imágen de un pincel revolviendo"
-        />
-        <img
-          class="img"
-          id="img-2"
-          src="./imagenes/imgs-enlaces/enlaces-pinturacrea-img2.jpg"
-          alt="Imágen sobre mesa de trabajo con materiales artisticos"
-        />
+        <picture>
+          <source
+            srcset="imagenes\imgs-enlaces\pinturaC-min.webp"
+            type="image/webp"
+          />
+          <source
+            srcset="imagenes\imgs-enlaces\pinturaC-reducida.jpg"
+            type="image/png"
+          />
+          <img
+            src="imagenes\imgs-enlaces\pinturaC-min.webp"
+            alt="Imagen de una persona preparando materiales para pintar"
+            class="primer-img"
+          />
+        </picture>
+        <picture>
+          <source
+            srcset="imagenes\imgs-enlaces\preguntas-min.webp"
+            type="image/webp"
+            class="segunda-img"
+          />
+          <source
+            srcset="imagenes\imgs-enlaces\preguntas-reducida.jpg"
+            type="image/png"
+            class="segunda-img"
+          />
+          <img
+            src="imagenes\imgs-enlaces\preguntas-min.webp"
+            alt="Imagen de una persona preparando materiales para pintar"
+            class="segunda-img"
+          />
+        </picture>
       </div>
 
       <main>

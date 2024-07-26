@@ -36,17 +36,38 @@
         </nav>
       </header>
       <div class="enlacesImg">
-        <img
-          class="img"
-          src="./imagenes/imgs-enlaces/ArteUrbano1 (1).jpg"
-          alt="Imagen sobe muchos aerosoles"
-        />
-        <img
-          class="img"
-          id="img-2"
-          src="./imagenes/imgs-enlaces/enlaces-graffiti-img2.jpg"
-          alt="Imagen sobre un mural"
-        />
+        <picture>
+          <source
+            srcset="imagenes\imgs-enlaces\arteUrbano-min.webp"
+            type="image/webp"
+          />
+          <source
+            srcset="imagenes\imgs-enlaces\arteUrbano-reducida.jpg"
+            type="image/png"
+          />
+          <img
+            src="imagenes\imgs-enlaces\arteUrbano-min.webp"
+            alt="Imagen de una persona preparando materiales para pintar"
+            class="primer-img"
+          />
+        </picture>
+        <picture>
+          <source
+            srcset="imagenes\imgs-enlaces\graffiti-min.webp"
+            type="image/webp"
+            class="segunda-img"
+          />
+          <source
+            srcset="imagenes\imgs-enlaces\graffiti-reducida.jpg"
+            type="image/png"
+            class="segunda-img"
+          />
+          <img
+            src="imagenes\imgs-enlaces\graffiti-min.webp"
+            alt="Imagen de una persona preparando materiales para pintar"
+            class="segunda-img"
+          />
+        </picture>
       </div>
 
       <main>

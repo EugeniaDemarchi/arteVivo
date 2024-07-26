@@ -41,11 +41,19 @@
     </header>
 
     <main>
-      <img
-        id="hero-image"
-        src="./imagenes/imagen-inicio.jpg"
-        alt="Imagen de arte"
-      />
+      <picture>
+        <source srcset="imagenes\img-inicio-min.webp" type="image/webp" />
+        <source
+          srcset="imagenes\imagen-inicio-redimensionada.jpg"
+          type="image/jpg"
+        />
+        <img
+          id="hero-image"
+          src="./imagenes/img-inicio-min.webp"
+          alt="Imagen de arte"
+        />
+      </picture>
+
       <div id="container-title-image-over">
         <p class="title-image-over">c r e a</p>
         <p class="title-image-over">t i v i</p>

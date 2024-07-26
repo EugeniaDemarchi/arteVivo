@@ -37,22 +37,40 @@
         </nav>
       </header>
 
-      <img
-        class="imgBanner"
-        src="./imagenes/imgs-banners/prueba5.jpg"
-        alt="Imagen de una persona dibujando"
-      />
+      <picture>
+        <source
+          srcset="imagenes\imgs-banners\prueba5-min.webp"
+          type="image/webp"
+        />
+        <source srcset="imagenes\imgs-banners\prueba5.jpg" type="image/jpg" />
+        <img
+          class="imgBanner"
+          src="/imagenes/imgs-banners/prueba5-min.webp"
+          alt="Imagen de arte"
+        />
+      </picture>
 
       <main>
         <h3 class="tituloh3">NUESTROS CURSOS</h3>
         <section class="cursos">
           <div class="Caja">
             <div class="img-box" id="box-taller">
-              <img
-                src="./imagenes/imgs-enlaces/imgs-cursos/Taller infancias1 (2).jpg"
-                alt="Imagen sobre guardapolvos colgados en la pared"
-              />
-              <!-- <img src="./Taller infancias 2.jpg" alt="" class="top" /> -->
+              <picture>
+                <source
+                  srcset="
+                    imagenes\imgs-enlaces\imgs-cursos\tallerInfancias-min.webp
+                  "
+                  type="image/webp"
+                />
+                <source
+                  srcset="imagenes\imgs-enlaces\imgs-cursos\tallerInfancias.png"
+                  type="image/png"
+                />
+                <img
+                  src="imagenes\imgs-enlaces\imgs-cursos\tallerInfancias-min.webp"
+                  alt="Imagen sobre guardapolvos colgados en la pared"
+                />
+              </picture>
             </div>
             <div class="info-box">
               <h2>Taller para Infancias</h2>
@@ -62,26 +80,48 @@
 
           <div class="Caja">
             <div class="img-box">
-              <!-- <img src="./ArteUrbano1 (1).jpg" alt="" /> -->
-              <img
-                src="./imagenes/imgs-enlaces/imgs-cursos/ArteUrbano2.jpg"
-                alt="Imagen con una chica pintando un mural"
-              />
+              <picture>
+                <source
+                  srcset="
+                    imagenes\imgs-enlaces\imgs-cursos\ArteUrbano2-min.webp
+                  "
+                  type="image/webp"
+                />
+                <source
+                  srcset="imagenes\imgs-enlaces\imgs-cursos\ArteUrbano2.png"
+                  type="image/png"
+                />
+                <img
+                  src="imagenes\imgs-enlaces\imgs-cursos\ArteUrbano2-min.webp"
+                  alt="Imagen sobre guardapolvos colgados en la pared"
+                />
+              </picture>
             </div>
             <div class="info-box">
               <h2>Arte Urbano</h2>
               <button class="btn-caja" id="btncaja2">Más info</button>
             </div>
           </div>
-
           <div class="Caja">
             <div class="img-box">
-              <img
-                src="./imagenes/imgs-enlaces/imgs-cursos/IlustracionDig1.jpg"
-                alt="Imagen con una mano dibujando en una tablet"
-              />
-              <!-- <img src="./ilustrac2.jpg" alt="" /> -->
+              <picture>
+                <source
+                  srcset="
+                    imagenes\imgs-enlaces\imgs-cursos\ilustracion-min.webp
+                  "
+                  type="image/webp"
+                />
+                <source
+                  srcset="imagenes\imgs-enlaces\imgs-cursos\ilustracion.png"
+                  type="image/png"
+                />
+                <img
+                  src="imagenes\imgs-enlaces\imgs-cursos\ilustracion-min.webp"
+                  alt="Imagen sobre guardapolvos colgados en la pared"
+                />
+              </picture>
             </div>
+
             <div class="info-box">
               <h2>Ilustración Digital</h2>
               <button class="btn-caja" id="btncaja3">Más info</button>
@@ -90,42 +130,73 @@
 
           <div class="Caja">
             <div class="img-box">
-              <img
-                src="./imagenes/imgs-enlaces/imgs-cursos/PinturaCreativa2.jpg"
-                alt="Imagen de una persona preparando materiales para pintar"
-                class="primer-img"
-              />
-              <!-- <img src="./PinturaCreativa1.jpg" alt="" class="segunda-img" /> -->
+              <picture>
+                <source
+                  srcset="
+                    imagenes\imgs-enlaces\imgs-cursos\PinturaCreativa2-min.webp
+                  "
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    imagenes\imgs-enlaces\imgs-cursos\PinturaCreativa2.png
+                  "
+                  type="image/png"
+                />
+                <img
+                  src="imagenes\imgs-enlaces\imgs-cursos\PinturaCreativa2-min.webp"
+                  alt="Imagen de una persona preparando materiales para pintar"
+                  class="primer-img"
+                />
+              </picture>
             </div>
             <div class="info-box">
-              <h2>Taller de Pintura Creativa</h2>
+              <h2>Pintura Creativa</h2>
               <button class="btn-caja" id="btncaja4">Más info</button>
             </div>
           </div>
 
           <div class="Caja">
             <div class="img-box">
-              <img
-                src="./imagenes/imgs-enlaces/imgs-cursos/HA1.jpg"
-                alt="Imagen de muchos libros abiertos"
-                class="primer-img"
-              />
-              <!-- <img src="./H.A2.jpg" alt="" class="segunda-img" /> -->
+              <picture>
+                <source
+                  srcset="imagenes\imgs-enlaces\imgs-cursos\HA1-min.webp"
+                  type="image/webp"
+                />
+                <source
+                  srcset="imagenes\imgs-enlaces\imgs-cursos\HA1.png"
+                  type="image/png"
+                />
+                <img
+                  src="imagenes\imgs-enlaces\imgs-cursos\HA1-min.webp"
+                  alt="Imagen de una persona preparando materiales para pintar"
+                  class="primer-img"
+                />
+              </picture>
             </div>
             <div class="info-box">
-              <h2>Historia del Arte Argentino</h2>
+              <h2>Historia del Arte</h2>
               <button class="btn-caja" id="btncaja5">Más info</button>
             </div>
           </div>
 
           <div class="Caja">
             <div class="img-box">
-              <!-- <img src="./clinica1.jpg" alt="" class="primer-img" /> -->
-              <img
-                src="./imagenes/imgs-enlaces/imgs-cursos/CLINICA2.jpg"
-                alt="Imagen de varias personas conversando sobre arte"
-                class="segunda-img"
-              />
+              <picture>
+                <source
+                  srcset="imagenes\imgs-enlaces\imgs-cursos\CLINICA2-min.webp"
+                  type="image/webp"
+                />
+                <source
+                  srcset="imagenes\imgs-enlaces\imgs-cursos\CLINICA2.png"
+                  type="image/png"
+                />
+                <img
+                  src="imagenes\imgs-enlaces\imgs-cursos\CLINICA2-min.webp"
+                  alt="Imagen de una persona preparando materiales para pintar"
+                  class="primer-img"
+                />
+              </picture>
             </div>
             <div class="info-box">
               <h2>Clínica de Obra</h2>
